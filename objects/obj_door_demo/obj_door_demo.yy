@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall",
+  "%Name":"obj_door_demo",
   "eventList":[],
   "managed":true,
-  "name":"obj_wall",
+  "name":"obj_door_demo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Courtyard",
+    "path":"folders/Objects/Courtyard.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_entrance",
+    "path":"objects/obj_entrance/obj_entrance.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,10 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
-  "spriteMaskId":{
-    "name":"spr_wall_collider",
-    "path":"sprites/spr_wall_collider/spr_wall_collider.yy",
+  "spriteId":{
+    "name":"Sprite5",
+    "path":"sprites/Sprite5/Sprite5.yy",
   },
+  "spriteMaskId":null,
   "visible":true,
 }

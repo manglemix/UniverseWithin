@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall",
+  "%Name":"obj_puzzle1_wall",
   "eventList":[],
   "managed":true,
-  "name":"obj_wall",
+  "name":"obj_puzzle1_wall",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"PuzzleRoom1",
+    "path":"folders/Objects/Puzzles/PuzzleRoom1.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_wall",
+    "path":"objects/obj_wall/obj_wall.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,10 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
-  "spriteMaskId":{
-    "name":"spr_wall_collider",
-    "path":"sprites/spr_wall_collider/spr_wall_collider.yy",
+  "spriteId":{
+    "name":"Sprite6",
+    "path":"sprites/Sprite6/Sprite6.yy",
   },
+  "spriteMaskId":null,
   "visible":true,
 }

@@ -9,8 +9,8 @@
   "name":"obj_boomerang_wall",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Puzzles",
+    "path":"folders/Objects/Puzzles.yy",
   },
   "parentObjectId":{
     "name":"obj_wall",

@@ -1,15 +1,15 @@
 {
   "$GMRoom":"v1",
-  "%Name":"Room1",
+  "%Name":"TestRoom",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_4E71700E","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_641722E5","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_3E8C774B","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_2DEA6C64","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_4E71700E","path":"rooms/TestRoom/TestRoom.yy",},
+    {"name":"inst_641722E5","path":"rooms/TestRoom/TestRoom.yy",},
+    {"name":"inst_3E8C774B","path":"rooms/TestRoom/TestRoom.yy",},
+    {"name":"inst_2DEA6C64","path":"rooms/TestRoom/TestRoom.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -26,7 +26,7 @@
       ],"layers":[],"name":"Walls","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"Room1",
+  "name":"TestRoom",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",

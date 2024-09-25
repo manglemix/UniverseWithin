@@ -17,6 +17,11 @@ if _dx != 0 and place_meeting(x + _dx, y, _player) {
 		x += _step;
 		if place_meeting(x, y, _player) {
 			_player.x += _step;
+			with (_player) {
+				 if scr_player_intersecting() {
+					 scr_kill_player();
+				 }
+			}
 		}
 		if abs(_dx) > abs(_step) {
 			_dx -= _step;
@@ -34,6 +39,11 @@ if _dy != 0 and place_meeting(x, y + _dy, _player) {
 		y += _step;
 		if place_meeting(x, y, _player) {
 			_player.y += _step;
+			with (_player) {
+				 if scr_player_intersecting() {
+					 scr_kill_player();
+				 }
+			}
 		}
 		if abs(_dy) > abs(_step) {
 			_dy -= _step;
