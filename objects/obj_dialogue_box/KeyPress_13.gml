@@ -1,1 +1,1 @@
-instance_destroy();
+queue_delete = true;

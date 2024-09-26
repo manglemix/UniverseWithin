@@ -7,7 +7,7 @@ if disable_y {
 	_y_strength = 0;
 }
 
-if global.dialogue_visible {
+if instance_exists(obj_dialogue_box) {
 	return;
 }
 
