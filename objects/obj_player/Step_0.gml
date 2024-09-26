@@ -7,6 +7,10 @@ if disable_y {
 	_y_strength = 0;
 }
 
+if global.dialogue_visible {
+	return;
+}
+
 var _result = scr_movement(
 	_x_strength,
 	_y_strength,
@@ -28,6 +32,9 @@ var _entrance = scr_get_obj(_result, obj_entrance);
 if _entrance != noone and (!_entrance.locked or has_puzzle_key) {
 	if _entrance.locked {
 		has_puzzle_key = false;
+		if variable_instance_exists(_entrance, "set_completed") {
+			variable_global_set(_entrance.set_completed, true);
+		}
 	}
 	room_goto(_entrance.room_index);
 }

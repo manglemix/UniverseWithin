@@ -1,0 +1,1 @@
+global.dialogue_visible = false;
