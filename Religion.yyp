@@ -34,7 +34,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.0.169",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Religion",
   "resources":[
@@ -61,6 +61,7 @@
     {"id":{"name":"Courtyard","path":"rooms/Courtyard/Courtyard.yy",},},
     {"id":{"name":"PuzzleRoom1","path":"rooms/PuzzleRoom1/PuzzleRoom1.yy",},},
     {"id":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
+    {"id":{"name":"scr_create_dialogue_box","path":"scripts/scr_create_dialogue_box/scr_create_dialogue_box.yy",},},
     {"id":{"name":"scr_get_obj","path":"scripts/scr_get_obj/scr_get_obj.yy",},},
     {"id":{"name":"scr_kill_player","path":"scripts/scr_kill_player/scr_kill_player.yy",},},
     {"id":{"name":"scr_movement","path":"scripts/scr_movement/scr_movement.yy",},},

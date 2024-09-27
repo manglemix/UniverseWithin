@@ -1,3 +1,8 @@
+if !interactable {
+	meeting = false;
+	return;
+}
+
 var _dx = obj_player.x - x;
 var _dy = obj_player.y - y;
 var _magnitude = sqrt(_dx * _dx + _dy * _dy);

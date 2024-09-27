@@ -1,1 +1,2 @@
-/// @description Triggered when the player interacts with this npc
+/// @description Player interacts with this npc
+show_debug_message("NPC generated no dialogue");
