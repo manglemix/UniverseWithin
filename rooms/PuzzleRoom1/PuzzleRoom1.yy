@@ -48,8 +48,8 @@
   ],
   "name":"PuzzleRoom1",
   "parent":{
-    "name":"PuzzleRoom1",
-    "path":"folders/Objects/Puzzles/PuzzleRoom1.yy",
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
