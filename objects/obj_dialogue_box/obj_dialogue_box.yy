@@ -44,8 +44,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite9",
-    "path":"sprites/Sprite9/Sprite9.yy",
+    "name":"spr_dialogue_box",
+    "path":"sprites/spr_dialogue_box/spr_dialogue_box.yy",
   },
   "spriteMaskId":null,
   "visible":true,

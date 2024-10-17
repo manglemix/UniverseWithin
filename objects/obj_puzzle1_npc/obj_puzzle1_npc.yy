@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite11",
-    "path":"sprites/Sprite11/Sprite11.yy",
+    "name":"spr_mystery_person",
+    "path":"sprites/spr_mystery_person/spr_mystery_person.yy",
   },
   "spriteMaskId":null,
   "visible":true,

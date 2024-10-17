@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite12",
-    "path":"sprites/Sprite12/Sprite12.yy",
+    "name":"spr_dialogue_choice",
+    "path":"sprites/spr_dialogue_choice/spr_dialogue_choice.yy",
   },
   "spriteMaskId":null,
   "visible":true,

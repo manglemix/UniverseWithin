@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite6",
-    "path":"sprites/Sprite6/Sprite6.yy",
+    "name":"spr_puzzle_1_wall",
+    "path":"sprites/spr_puzzle_1_wall/spr_puzzle_1_wall.yy",
   },
   "spriteMaskId":null,
   "visible":true,

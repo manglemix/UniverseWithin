@@ -8,8 +8,8 @@
   "name":"obj_entrance",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Utilities",
+    "path":"folders/Objects/Utilities.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -34,12 +34,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite15",
-    "path":"sprites/Sprite15/Sprite15.yy",
+    "name":"spr_entrance",
+    "path":"sprites/spr_entrance/spr_entrance.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_wall_collider",
-    "path":"sprites/spr_wall_collider/spr_wall_collider.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
