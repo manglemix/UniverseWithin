@@ -6,13 +6,14 @@ if not fading {
 
 if fade_in {
 	if alpha <= 0.01 {
+		alpha = 0;
 		instance_destroy();
 	} else {
 		alpha = scr_lerp(alpha, 0, weight);
 	}
 } else {
 	if alpha >= 0.99 {
-		instance_destroy();
+		alpha = 1;
 		room_goto(next_room_index);
 	} else {
 		alpha = scr_lerp(alpha, 1, weight);
