@@ -44,6 +44,7 @@
     {"id":{"name":"fnt_dialogue_name","path":"fonts/fnt_dialogue_name/fnt_dialogue_name.yy",},},
     {"id":{"name":"fnt_dialogue_special_choice","path":"fonts/fnt_dialogue_special_choice/fnt_dialogue_special_choice.yy",},},
     {"id":{"name":"fnt_dialogue","path":"fonts/fnt_dialogue/fnt_dialogue.yy",},},
+    {"id":{"name":"fnt_end","path":"fonts/fnt_end/fnt_end.yy",},},
     {"id":{"name":"fnt_tooltip","path":"fonts/fnt_tooltip/fnt_tooltip.yy",},},
     {"id":{"name":"obj_boomerang_wall","path":"objects/obj_boomerang_wall/obj_boomerang_wall.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
