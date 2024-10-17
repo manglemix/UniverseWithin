@@ -1,3 +1,5 @@
+draw_set_color(c_white);
+draw_set_alpha(1);
 draw_self();
 var _tmp = draw_get_color();
 if special {

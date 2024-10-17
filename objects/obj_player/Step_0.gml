@@ -1,11 +1,11 @@
 delta_sum += delta_time
 
-var _x_strength = keyboard_check(ord("D")) - keyboard_check(ord("A"));
-var _y_strength = keyboard_check(ord("S")) - keyboard_check(ord("W"));
-
-if instance_exists(obj_dialogue_box) {
+if instance_exists(obj_dialogue_box) or instance_exists(obj_transition) {
 	return;
 }
+
+var _x_strength = keyboard_check(ord("D")) - keyboard_check(ord("A"));
+var _y_strength = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
 if disable_y {
 	_y_strength = 0;
@@ -36,5 +36,5 @@ if not disable_entrances and _entrance != noone and (!_entrance.locked or has_pu
 			variable_global_set(_entrance.set_completed, true);
 		}
 	}
-	room_goto(_entrance.room_index);
+	instance_create_layer(0, 0, "Instances", obj_transition, { next_room_index: _entrance.room_index });
 }
