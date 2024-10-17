@@ -6,8 +6,9 @@ for (var _i = 0; _i < _choice_count; _i++) {
 	var _choice_inst = instance_create_layer(25 + _width * _i, 655, "Dialogue", obj_dialogue_choice);
 	_choice_inst.choice = choices[_i];
 	_choice_inst.depth = depth - 1;
-	_choice_inst.image_xscale = (_width - 20) / 64;
+	_choice_inst.image_xscale = (_width - 20) / 64 * image_xscale;
 	_choice_inst.dialogue_box = self;
+	_choice_inst.image_yscale = image_yscale;
 	if _i < array_length(special_choices) {
 		_choice_inst.special = special_choices[_i];
 	}

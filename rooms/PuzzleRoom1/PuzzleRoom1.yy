@@ -17,6 +17,7 @@
     {"name":"inst_67841B28","path":"rooms/PuzzleRoom1/PuzzleRoom1.yy",},
     {"name":"inst_22F2116F","path":"rooms/PuzzleRoom1/PuzzleRoom1.yy",},
     {"name":"inst_578610CA","path":"rooms/PuzzleRoom1/PuzzleRoom1.yy",},
+    {"name":"inst_2E296DC9","path":"rooms/PuzzleRoom1/PuzzleRoom1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -31,6 +32,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_puzzle_door","path":"objects/obj_puzzle_door/obj_puzzle_door.yy",},"propertyId":{"name":"set_completed","path":"objects/obj_puzzle_door/obj_puzzle_door.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"puzzle1_completed",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.75,"scaleY":1.75,"x":1248.0,"y":544.0,},
         {"$GMRInstance":"v1","%Name":"inst_578610CA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_578610CA","objectId":{"name":"obj_puzzle1_npc","path":"objects/obj_puzzle1_npc/obj_puzzle1_npc.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1248.0,"y":160.0,},
+        {"$GMRInstance":"v1","%Name":"inst_2E296DC9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2E296DC9","objectId":{"name":"obj_skip_puzzle","path":"objects/obj_skip_puzzle/obj_skip_puzzle.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":512.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Walls","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_7DF9AD3D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7DF9AD3D","objectId":{"name":"obj_puzzle1_wall","path":"objects/obj_puzzle1_wall/obj_puzzle1_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":21.34,"scaleY":1.0,"x":0.0,"y":704.0,},

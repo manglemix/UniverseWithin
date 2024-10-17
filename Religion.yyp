@@ -59,6 +59,7 @@
     {"id":{"name":"obj_religion_npc_1","path":"objects/obj_religion_npc_1/obj_religion_npc_1.yy",},},
     {"id":{"name":"obj_religion_roof_1","path":"objects/obj_religion_roof_1/obj_religion_roof_1.yy",},},
     {"id":{"name":"obj_roof","path":"objects/obj_roof/obj_roof.yy",},},
+    {"id":{"name":"obj_skip_puzzle","path":"objects/obj_skip_puzzle/obj_skip_puzzle.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"Courtyard","path":"rooms/Courtyard/Courtyard.yy",},},
     {"id":{"name":"PuzzleRoom1","path":"rooms/PuzzleRoom1/PuzzleRoom1.yy",},},

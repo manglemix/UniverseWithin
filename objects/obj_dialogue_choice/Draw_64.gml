@@ -1,3 +1,4 @@
+draw_self();
 var _tmp = draw_get_color();
 if special {
 	draw_set_color(c_aqua);
