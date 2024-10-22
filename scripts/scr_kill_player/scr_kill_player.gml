@@ -5,6 +5,5 @@ function scr_kill_player() {
 		return;
 	}
 	dead = true;
-	show_message("You died!");
 	room_restart();
 }

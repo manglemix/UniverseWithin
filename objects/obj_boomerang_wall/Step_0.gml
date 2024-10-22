@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+if instance_exists(obj_player) and obj_player.paused {
+	return;
+}
+
 timer += delta_time / 1000000;
 
 if timer > period {
