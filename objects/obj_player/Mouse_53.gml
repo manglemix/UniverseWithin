@@ -15,7 +15,6 @@ if paused {
 	if _mouse_y >= _start_y + 40 {
 		game_end(0);
 	} else {
-		room_persistent = false;
-		room_goto(0);
+		game_restart();
 	}
 }

@@ -1,6 +1,6 @@
 delta_sum += delta_time
 
-if instance_exists(obj_dialogue_box) or instance_exists(obj_transition) {
+if instance_exists(obj_dialogue_box) or instance_exists(obj_transition) or paused {
 	return;
 }
 
