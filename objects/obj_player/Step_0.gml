@@ -22,19 +22,25 @@ var _key = scr_get_obj(_result, obj_key);
 
 if _key != noone {
 	has_puzzle_key = true;
+	audio_play_sound(snd_pickup, 1, false);
 	with (_key) {
-		scr_pickup();
+		picked_up = true;
 	}
 }
 
 var _entrance = scr_get_obj(_result, obj_entrance);
 
-if not disable_entrances and _entrance != noone and (!_entrance.locked or has_puzzle_key) {
+if not disable_entrances and _entrance != noone {
 	if _entrance.locked {
+		if !has_puzzle_key {
+			audio_play_sound(snd_locked, 1, false);
+			return;
+		}
 		has_puzzle_key = false;
 		if variable_instance_exists(_entrance, "set_completed") {
 			variable_global_set(_entrance.set_completed, true);
 		}
 	}
+	audio_play_sound(snd_door_open, 1, false);
 	instance_create_layer(0, 0, "Instances", obj_transition, { next_room_index: _entrance.room_index });
 }

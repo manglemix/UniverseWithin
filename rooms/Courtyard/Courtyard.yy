@@ -20,6 +20,7 @@
     {"name":"inst_F9A89C1","path":"rooms/Courtyard/Courtyard.yy",},
     {"name":"inst_701C8917","path":"rooms/Courtyard/Courtyard.yy",},
     {"name":"inst_75E46E74","path":"rooms/Courtyard/Courtyard.yy",},
+    {"name":"inst_25C6D434","path":"rooms/Courtyard/Courtyard.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -53,6 +54,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_entrance","path":"objects/obj_entrance/obj_entrance.yy",},"propertyId":{"name":"room_index","path":"objects/obj_entrance/obj_entrance.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":577.5,"y":-27.0,},
         {"$GMRInstance":"v1","%Name":"inst_701C8917","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_701C8917","objectId":{"name":"obj_religion_1_npc_2","path":"objects/obj_religion_1_npc_2/obj_religion_1_npc_2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1111.0,"y":237.0,},
+        {"$GMRInstance":"v1","%Name":"inst_25C6D434","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_25C6D434","objectId":{"name":"obj_init","path":"objects/obj_init/obj_init.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":467.0,"y":364.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_2683C100","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_2683C100","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_religion_1_floor","path":"sprites/spr_religion_1_floor/spr_religion_1_floor.yy",},"x":936.0,"y":-15.0,},
