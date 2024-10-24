@@ -15,6 +15,7 @@ if paused {
 	if _mouse_y >= _start_y + 40 {
 		game_end(0);
 	} else {
-		game_restart();
+		instance_create_layer(0, 0, "Instances", obj_transition, { next_room_index: -1 });
+		hide_pause_text = true;
 	}
 }

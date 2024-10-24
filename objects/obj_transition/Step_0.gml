@@ -14,7 +14,11 @@ if fade_in {
 } else {
 	if alpha >= 0.99 {
 		alpha = 1;
-		room_goto(next_room_index);
+		if next_room_index == -1 {
+			game_restart();
+		} else {
+			room_goto(next_room_index);
+		}
 	} else {
 		alpha = scr_lerp(alpha, 1, weight);
 	}

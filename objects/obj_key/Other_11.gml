@@ -1,0 +1,1 @@
+goto_door = true;

@@ -1,1 +1,0 @@
-picked_up = false;

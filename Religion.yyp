@@ -68,7 +68,6 @@
     {"id":{"name":"obj_key","path":"objects/obj_key/obj_key.yy",},},
     {"id":{"name":"obj_make_transition","path":"objects/obj_make_transition/obj_make_transition.yy",},},
     {"id":{"name":"obj_npc","path":"objects/obj_npc/obj_npc.yy",},},
-    {"id":{"name":"obj_pickup","path":"objects/obj_pickup/obj_pickup.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_puzzle_door","path":"objects/obj_puzzle_door/obj_puzzle_door.yy",},},
     {"id":{"name":"obj_puzzle1_npc","path":"objects/obj_puzzle1_npc/obj_puzzle1_npc.yy",},},
