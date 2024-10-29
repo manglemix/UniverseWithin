@@ -16,6 +16,14 @@ if disable_y {
 	y_strength = 0;
 }
 
+if _x_strength == 0 {
+	// do nothing
+} else if _x_strength < 0 {
+	image_xscale = 1;
+} else {
+	image_xscale = -1;
+}
+
 var _collide_with = [obj_wall, obj_entrance];
 
 if puzzle_key == noone {

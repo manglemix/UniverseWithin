@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_religion_1_roof_1",
+  "%Name":"obj_religion2_roof",
   "eventList":[],
   "managed":true,
-  "name":"obj_religion_1_roof_1",
+  "name":"obj_religion2_roof",
   "overriddenProperties":[],
   "parent":{
-    "name":"Religion1",
-    "path":"folders/Objects/Courtyard/Religion1.yy",
+    "name":"Religion2",
+    "path":"folders/Objects/Courtyard/Religion2.yy",
   },
   "parentObjectId":{
     "name":"obj_roof",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_religion_1_roof",
-    "path":"sprites/spr_religion_1_roof/spr_religion_1_roof.yy",
+    "name":"spr_religion_2_roof",
+    "path":"sprites/spr_religion_2_roof/spr_religion_2_roof.yy",
   },
   "spriteMaskId":null,
   "visible":true,
