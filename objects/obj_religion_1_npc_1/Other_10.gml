@@ -6,5 +6,5 @@ else if spoken_to {
 	dialogue = "Visit the temple in your own time.";
 } else {
 	spoken_to = true;
-	dialogue = "How are you today? Are you interested in learning about the side-scrollers? We don't believe in moving vertically. Visit our temple!";
+	dialogue = "How are you today? You seem pre-occupied with something. Are you interested in learning about our religion? Visit our temple!";
 }

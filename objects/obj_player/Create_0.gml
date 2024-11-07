@@ -5,6 +5,21 @@ if !variable_global_exists("dialogue_visible")
     global.dialogue_visible = false;
 }
 
+if !variable_global_exists("puzzle1_completed")
+{
+    global.puzzle1_completed = false;
+}
+
+if !variable_global_exists("puzzle2_completed")
+{
+    global.puzzle2_completed = false;
+}
+
+if !variable_global_exists("puzzle3_completed")
+{
+    global.puzzle3_completed = false;
+}
+
 disable_entrances = false;
 step = round(max_speed / 60);
 delta_sum = 0;

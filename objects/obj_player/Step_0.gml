@@ -24,7 +24,7 @@ if _x_strength == 0 {
 	image_xscale = -1;
 }
 
-var _collide_with = [obj_wall, obj_entrance];
+var _collide_with = [obj_wall, obj_entrance, obj_gate];
 
 if puzzle_key == noone {
 	array_push(_collide_with, obj_key);
@@ -63,4 +63,22 @@ if not disable_entrances and _entrance != noone {
 	}
 	audio_play_sound(snd_door_open, 1, false);
 	instance_create_layer(0, 0, "Instances", obj_transition, { next_room_index: _entrance.room_index });
+}
+
+var _gate = scr_get_obj(_result, obj_gate);
+
+if _gate != noone {
+	if !global.puzzle1_completed or !global.puzzle2_completed or !global.puzzle3_completed {
+		var _dialogue_box = instance_create_layer(0, 0, "Dialogue", obj_dialogue_box);
+		_dialogue_box.dialogue = "I need to finish more puzzles first";
+		_dialogue_box.speaker_name = "You";
+		_dialogue_box.owner = self;
+	
+		with (_dialogue_box) {
+			event_user(1);
+		}
+	} else {
+		audio_play_sound(snd_door_open, 1, false);
+		instance_create_layer(0, 0, "Instances", obj_transition, { next_room_index: rm_end });
+	}
 }

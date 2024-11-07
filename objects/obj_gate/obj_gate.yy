@@ -9,10 +9,7 @@
     "name":"Courtyard",
     "path":"folders/Objects/Courtyard.yy",
   },
-  "parentObjectId":{
-    "name":"obj_entrance",
-    "path":"objects/obj_entrance/obj_entrance.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
