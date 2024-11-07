@@ -93,6 +93,8 @@
     {"id":{"name":"rm_courtyard","path":"rooms/rm_courtyard/rm_courtyard.yy",},},
     {"id":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},},
     {"id":{"name":"rm_puzzle_room_1","path":"rooms/rm_puzzle_room_1/rm_puzzle_room_1.yy",},},
+    {"id":{"name":"rm_puzzle_room_2","path":"rooms/rm_puzzle_room_2/rm_puzzle_room_2.yy",},},
+    {"id":{"name":"rm_puzzle_room_3","path":"rooms/rm_puzzle_room_3/rm_puzzle_room_3.yy",},},
     {"id":{"name":"scr_create_dialogue_box","path":"scripts/scr_create_dialogue_box/scr_create_dialogue_box.yy",},},
     {"id":{"name":"scr_get_obj","path":"scripts/scr_get_obj/scr_get_obj.yy",},},
     {"id":{"name":"scr_kill_player","path":"scripts/scr_kill_player/scr_kill_player.yy",},},
@@ -133,6 +135,8 @@
     {"roomId":{"name":"rm_courtyard","path":"rooms/rm_courtyard/rm_courtyard.yy",},},
     {"roomId":{"name":"rm_puzzle_room_1","path":"rooms/rm_puzzle_room_1/rm_puzzle_room_1.yy",},},
     {"roomId":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},},
+    {"roomId":{"name":"rm_puzzle_room_2","path":"rooms/rm_puzzle_room_2/rm_puzzle_room_2.yy",},},
+    {"roomId":{"name":"rm_puzzle_room_3","path":"rooms/rm_puzzle_room_3/rm_puzzle_room_3.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
