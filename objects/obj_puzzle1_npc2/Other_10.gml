@@ -1,0 +1,1 @@
+dialogue = "In this ritual, we are only allowed to move left and right. Insert the gem into the door and I'll give you what you need.";
