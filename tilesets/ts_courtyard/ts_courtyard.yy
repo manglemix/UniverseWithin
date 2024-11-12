@@ -1,0 +1,42 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"ts_courtyard",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":25,
+    "SerialiseWidth":19,
+    "TileCompressedData":[
+      -11,3,-8,0,-11,3,-8,0,-11,3,-8,0,-11,3,-8,0,-11,3,-8,0,-11,3,-8,0,-11,3,-8,0,-11,3,-8,0,-11,3,-8,0,-11,
+      3,-293,0,
+    ],
+    "TileDataFormat":1,
+  },
+  "name":"ts_courtyard",
+  "out_columns":3,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"spr_default",
+    "path":"sprites/spr_default/spr_default.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":30,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":30,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":9,
+}
