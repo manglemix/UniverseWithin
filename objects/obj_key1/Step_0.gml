@@ -1,3 +1,7 @@
+if obj_player.paused {
+	return;
+}
+
 image_xscale = scr_lerp(image_xscale, 1, 200);
 image_yscale = image_xscale;
 

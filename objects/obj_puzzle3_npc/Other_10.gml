@@ -1,0 +1,1 @@
+dialogue = "In this experiment, we've been able to stimulate the graviton! You'll need to jump to grab the gemstone.";

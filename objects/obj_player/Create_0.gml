@@ -31,3 +31,6 @@ y_strength = 0;
 hide_pause_text = false;
 y_vel = 0;
 is_on_ground = false;
+disable_step = false;
+last_y = y;
+time_off_ground = 0;
