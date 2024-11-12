@@ -29,3 +29,5 @@ puzzle_key = noone;
 x_strength = 0;
 y_strength = 0;
 hide_pause_text = false;
+y_vel = 0;
+is_on_ground = false;

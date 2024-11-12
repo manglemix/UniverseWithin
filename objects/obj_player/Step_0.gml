@@ -27,7 +27,18 @@ if _x_strength == 0 {
 var _collide_with = [obj_wall, obj_entrance, obj_gate];
 
 if puzzle_key == noone {
-	array_push(_collide_with, obj_key);
+	array_push(_collide_with, obj_key1);
+}
+
+
+if can_jump {
+	var _result = move_and_collide(0, y_vel * delta_time / 1000000, obj_wall);
+	if array_length(_result) == 0 {
+		y_vel += 1000 * delta_time / 1000000;
+	} else {
+		y_vel = 0;
+		is_on_ground = true;
+	}
 }
 
 var _result = scr_movement(
@@ -37,7 +48,7 @@ var _result = scr_movement(
 	_collide_with
 );
 
-var _key = scr_get_obj(_result, obj_key);
+var _key = scr_get_obj(_result, obj_key1);
 
 if _key != noone {
 	puzzle_key = _key;

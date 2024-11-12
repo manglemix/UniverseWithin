@@ -19,6 +19,7 @@ if goto_door {
 		_dy *= 10 * _dt / _dist;
 		x = scr_lerp(x, obj_puzzle_door.x + obj_puzzle_door.sprite_width / 2, 250) + _dx;
 		y = scr_lerp(y, obj_puzzle_door.y + obj_puzzle_door.sprite_height / 2, 250) + _dy;
+		image_angle = scr_lerp(image_angle, 0, 250) - sign(image_angle) * 20 * delta_time / 1000000;
 	}
 	
 	
@@ -33,5 +34,10 @@ if goto_door {
 		var _r = _dist - 75;
 		x = scr_lerp(x, x + _dx * _r, 250);
 		y = scr_lerp(y, y + _dy * _r, 250);
+	}
+	image_angle += 20 * delta_time / 1000000;
+	image_angle %= 360;
+	if image_angle > 180 {
+		image_angle -= 360;
 	}
 }

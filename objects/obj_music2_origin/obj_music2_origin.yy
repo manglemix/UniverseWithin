@@ -5,7 +5,7 @@
   "managed":true,
   "name":"obj_music2_origin",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_music_origin","path":"objects/obj_music_origin/obj_music_origin.yy",},"propertyId":{"name":"max_radius","path":"objects/obj_music_origin/obj_music_origin.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"450",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_music_origin","path":"objects/obj_music_origin/obj_music_origin.yy",},"propertyId":{"name":"max_radius","path":"objects/obj_music_origin/obj_music_origin.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"400",},
   ],
   "parent":{
     "name":"Music",

@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_puzzle_door",
+  "%Name":"spr_puzzle_door_3",
   "bboxMode":0,
   "bbox_bottom":121,
   "bbox_left":26,
@@ -12,28 +12,28 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"25ff9114-c536-4643-9870-af784e6b71df","name":"25ff9114-c536-4643-9870-af784e6b71df","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"95558db6-5ebe-4f75-8a3f-3f590a2b3cd8","name":"95558db6-5ebe-4f75-8a3f-3f590a2b3cd8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":170,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"10faf19f-c2e7-435a-ba01-9ed7552edeb4","blendMode":0,"displayName":"default","isLocked":false,"name":"10faf19f-c2e7-435a-ba01-9ed7552edeb4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"70121327-166f-4579-97dc-fa13a4e88923","blendMode":0,"displayName":"default","isLocked":false,"name":"70121327-166f-4579-97dc-fa13a4e88923","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_puzzle_door",
+  "name":"spr_puzzle_door_3",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Puzzles",
-    "path":"folders/Sprites/Puzzles.yy",
+    "name":"Puzzle3",
+    "path":"folders/Sprites/Puzzles/Puzzle3.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"spr_puzzle_door",
+    "%Name":"spr_puzzle_door_1",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_puzzle_door",
+    "name":"spr_puzzle_door_1",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"25ff9114-c536-4643-9870-af784e6b71df","path":"sprites/spr_puzzle_door/spr_puzzle_door.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"93ab23f1-36e0-4f9d-b2ab-3988034cde83","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"95558db6-5ebe-4f75-8a3f-3f590a2b3cd8","path":"sprites/spr_puzzle_door_3/spr_puzzle_door_3.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1c6dd594-f445-4983-ac3f-9600e1b322f6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
