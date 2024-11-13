@@ -1,6 +1,6 @@
-dialogue = "I'm willing to bet you're going to get stuck and someone will have to come and save you.";
-choices = ["Watch me", "..."];
+dialogue = "What a restrictive tradition! We're out here inventing physics and these guys are stuck on a lesser plane of movement!";
+choices = [];
 if global.spoke_to_jenna {
-	array_push(choices, "Who is Jenna?");
-	special_choices = [false, false, true];
+	choices = ["It's a harmless tradition that makes them happy."];
+	special_choices = [true];
 }

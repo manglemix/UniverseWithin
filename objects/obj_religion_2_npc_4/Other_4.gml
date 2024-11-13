@@ -1,0 +1,1 @@
+interactable = !global.spoke_to_corner_nun;

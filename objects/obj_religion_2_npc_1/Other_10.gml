@@ -1,4 +1,4 @@
-if global.puzzle1_completed {
+if global.puzzle2_completed {
 	dialogue = "Did you enjoy the ritual?";
 	choices = ["Yes", "No"];
 }

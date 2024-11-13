@@ -4,8 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
-if !variable_global_exists("spoke_to_jenna") {
-	global.spoke_to_jenna = false;
+if !variable_global_exists("spoke_to_puzzle_guru") {
+	global.spoke_to_puzzle_guru = false;
 }
 
 leave = false;
