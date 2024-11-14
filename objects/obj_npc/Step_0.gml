@@ -3,8 +3,8 @@ if !interactable {
 	return;
 }
 
-var _dx = obj_player.x - x - sprite_width;
-var _dy = obj_player.y - y - sprite_height;
+var _dx = obj_player.x - x - sprite_width / 2;
+var _dy = obj_player.y - y - sprite_height / 2;
 var _magnitude = sqrt(_dx * _dx + _dy * _dy);
 
 if _magnitude > 0 {

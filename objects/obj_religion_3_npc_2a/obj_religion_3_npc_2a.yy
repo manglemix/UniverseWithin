@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_religion_2_npc_3a",
+  "%Name":"obj_religion_3_npc_2a",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_religion_2_npc_3a",
+  "name":"obj_religion_3_npc_2a",
   "overriddenProperties":[],
   "parent":{
-    "name":"Religion2",
-    "path":"folders/Objects/Courtyard/Religion2.yy",
+    "name":"Religion3",
+    "path":"folders/Objects/Courtyard/Religion3.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_priest2",
-    "path":"sprites/spr_priest2/spr_priest2.yy",
+    "name":"spr_priest",
+    "path":"sprites/spr_priest/spr_priest.yy",
   },
   "spriteMaskId":null,
   "visible":true,
