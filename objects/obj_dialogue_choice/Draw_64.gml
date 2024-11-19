@@ -1,5 +1,5 @@
 draw_set_color(c_white);
-draw_set_alpha(1);
+draw_set_alpha(opacity);
 draw_self();
 var _tmp = draw_get_color();
 if special {
@@ -11,3 +11,4 @@ if special {
 
 draw_text(x + 5, y + 5, choice);
 draw_set_color(_tmp);
+draw_set_alpha(1);
