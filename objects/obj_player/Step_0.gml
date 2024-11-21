@@ -99,6 +99,15 @@ if _gate != noone {
 		with (_dialogue_box) {
 			event_user(1);
 		}
+	} else if global.special_interactions < 2 {
+		var _dialogue_box = instance_create_layer(0, 0, "Dialogue", obj_dialogue_box);
+		_dialogue_box.dialogue = "I should try speaking to these people again";
+		_dialogue_box.speaker_name = "You";
+		_dialogue_box.owner = self;
+	
+		with (_dialogue_box) {
+			event_user(1);
+		}
 	} else {
 		audio_play_sound(snd_door_open, 1, false);
 		instance_create_layer(0, 0, "Instances", obj_transition, { next_room_index: rm_end });
