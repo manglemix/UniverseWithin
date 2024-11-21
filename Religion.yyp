@@ -140,6 +140,7 @@
     {"id":{"name":"snd_music2","path":"sounds/snd_music2/snd_music2.yy",},},
     {"id":{"name":"snd_music3","path":"sounds/snd_music3/snd_music3.yy",},},
     {"id":{"name":"snd_pickup","path":"sounds/snd_pickup/snd_pickup.yy",},},
+    {"id":{"name":"snd_walking","path":"sounds/snd_walking/snd_walking.yy",},},
     {"id":{"name":"spr_boomerang_wall","path":"sprites/spr_boomerang_wall/spr_boomerang_wall.yy",},},
     {"id":{"name":"spr_default","path":"sprites/spr_default/spr_default.yy",},},
     {"id":{"name":"spr_dialogue_box","path":"sprites/spr_dialogue_box/spr_dialogue_box.yy",},},

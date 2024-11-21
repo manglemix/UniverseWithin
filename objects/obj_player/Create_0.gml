@@ -34,3 +34,4 @@ is_on_ground = false;
 disable_step = false;
 last_y = y;
 time_off_ground = 0;
+walking_sound = audio_play_sound(snd_walking, 50, true, 0);

@@ -34,6 +34,12 @@ if puzzle_key == noone {
 	array_push(_collide_with, obj_key1);
 }
 
+if abs(x_strength) > 0.3 || abs(y_strength) > 0.3 {
+	audio_sound_gain(walking_sound, 10, 0);
+} else {
+	audio_sound_gain(walking_sound, 0, 0);
+}
+
 var _result = scr_movement(
 	x_strength,
 	y_strength,
