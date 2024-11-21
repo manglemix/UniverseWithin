@@ -1,6 +1,6 @@
 if keyboard_check(vk_space) {
 	if can_jump {
-		if !is_on_ground and time_off_ground >= 0.1 {
+		if !is_on_ground and time_off_ground >= 0.2 {
 			return;
 		}
 		var _vel = (y - last_y) / delta_time * 1000000;
@@ -9,6 +9,6 @@ if keyboard_check(vk_space) {
 		}
 		y_vel = -400 + _vel;
 		is_on_ground = false;
-		time_off_ground = 0.1;
+		time_off_ground = 0.2;
 	}
 }
