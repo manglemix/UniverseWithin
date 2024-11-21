@@ -16,7 +16,8 @@ function scr_create_dialogue_box() {
 			owner: _owner,
 			owner_user_event_num: 1,
 			choices: choices,
-			special_choices: special_choices
+			special_choices: special_choices,
+			conversation_type: conversation_type
 		}
 	);
 	
