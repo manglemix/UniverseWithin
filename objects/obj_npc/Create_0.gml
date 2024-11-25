@@ -7,3 +7,6 @@ if interact_on_create {
 		scr_create_dialogue_box();
 	}
 }
+
+image_speed = 0;
+alarm[0] = round(random_range(100, 600));

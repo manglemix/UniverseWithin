@@ -14,5 +14,8 @@ if queue_delete {
 			}
 		}
 		instance_destroy();
+		with (owner) {
+			event_user(15);
+		}
 	}
 }

@@ -3,8 +3,15 @@ if !interactable {
 	return;
 }
 
-var _dx = obj_player.x - x - sprite_width / 2;
-var _dy = obj_player.y - y - sprite_height / 2;
+if (dialogue_box == noone) {
+	image_speed = 0;
+	image_index = 0;
+} else {
+	image_speed = 1;
+}
+
+var _dx = obj_player.x - x;
+var _dy = obj_player.y - y;
 var _magnitude = sqrt(_dx * _dx + _dy * _dy);
 
 if _magnitude > 0 {

@@ -9,6 +9,6 @@ if special {
 	draw_set_font(fnt_dialogue_choice);
 }
 
-draw_text(x + 5, y + 5, choice);
+draw_text_transformed(x + 7 * parent_x_scale, y + 5 * image_yscale, choice, parent_x_scale, image_yscale, 0);
 draw_set_color(_tmp);
 draw_set_alpha(1);
