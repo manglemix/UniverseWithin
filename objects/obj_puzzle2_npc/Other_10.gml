@@ -1,1 +1,0 @@
-dialogue = "In here, we believe in climbing the ladder of life! You shall only move vertically, and you will get that gem for me! Now go!";

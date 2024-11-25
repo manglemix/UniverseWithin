@@ -29,7 +29,7 @@ if goto_door {
 	
 } else if picked_up {
 	var _dx = obj_player.x - x;
-	var _dy = obj_player.y - y;
+	var _dy = obj_player.y - y - 30;
 	var _dist = sqrt(_dx * _dx + _dy * _dy);
 	
 	if _dist > 75 {

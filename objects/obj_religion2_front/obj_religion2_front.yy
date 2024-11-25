@@ -4,7 +4,9 @@
   "eventList":[],
   "managed":true,
   "name":"obj_religion2_front",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_y_sort","path":"objects/obj_y_sort/obj_y_sort.yy",},"propertyId":{"name":"offset_y","path":"objects/obj_y_sort/obj_y_sort.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"346",},
+  ],
   "parent":{
     "name":"Religion2",
     "path":"folders/Objects/Courtyard/Religion2.yy",

@@ -1,3 +1,4 @@
+depth = obj_player.y-y;
 if (!idle_talking and dialogue_box == noone) {
 	image_speed = 0;
 	image_index = 0;
@@ -26,4 +27,3 @@ if _magnitude > 0 {
 		}
 	}
 }
-depth = obj_player.y-y;

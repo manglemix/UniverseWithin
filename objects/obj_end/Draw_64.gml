@@ -7,4 +7,4 @@ if global.special_interactions >= 5 {
 	draw_set_color(c_aqua);
 }
 draw_set_font(fnt_end);
-draw_text(540, 190, "Found " + string(global.special_interactions) + "/5 Special Interactions");
+draw_text(600, 190, "Found " + string(global.special_interactions) + "/5 Special Interactions");
