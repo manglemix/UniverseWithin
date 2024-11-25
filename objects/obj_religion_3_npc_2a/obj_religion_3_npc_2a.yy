@@ -8,12 +8,17 @@
   ],
   "managed":true,
   "name":"obj_religion_3_npc_2a",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_npc","path":"objects/obj_npc/obj_npc.yy",},"propertyId":{"name":"idle_talking","path":"objects/obj_npc/obj_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+  ],
   "parent":{
     "name":"Religion3",
     "path":"folders/Objects/Courtyard/Religion3.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_dummy",
+    "path":"objects/obj_dummy/obj_dummy.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -8,5 +8,7 @@ if interact_on_create {
 	}
 }
 
-image_speed = 0;
+if idle_talking {
+	image_speed = 0;
+}
 alarm[0] = round(random_range(100, 600));

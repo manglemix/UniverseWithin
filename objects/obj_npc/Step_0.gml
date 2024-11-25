@@ -1,13 +1,13 @@
+if (!idle_talking and dialogue_box == noone) {
+	image_speed = 0;
+	image_index = 0;
+} else if image_speed == 0 {
+	image_speed = random_range(0.9, 1.1);
+}
+
 if !interactable {
 	meeting = false;
 	return;
-}
-
-if (dialogue_box == noone) {
-	image_speed = 0;
-	image_index = 0;
-} else {
-	image_speed = 1;
 }
 
 var _dx = obj_player.x - x;
@@ -26,3 +26,4 @@ if _magnitude > 0 {
 		}
 	}
 }
+depth = obj_player.y-y;
