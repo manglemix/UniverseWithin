@@ -59,8 +59,10 @@
         {"$GMRInstance":"v1","%Name":"inst_367B713E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_367B713E","objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":17.0,"x":1320.0,"y":60.0,},
       ],"layers":[],"name":"Walls","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":26,"SerialiseWidth":45,"TileCompressedData":[
-          -91,2,-43,6,-2,2,-43,6,-2,2,-43,6,-2,2,-43,6,-2,2,-43,6,-2,2,-43,6,-2,2,-43,6,-21,2,-5,6,-40,2,-5,6,
-          -21,2,-43,6,-2,2,-43,6,-2,2,-43,6,-2,2,-43,6,-2,2,-43,6,1,2,-44,6,1,2,-44,6,1,2,-44,6,-316,2,
+          -91,2,-43,6,-2,2,-43,6,-2,2,-43,6,-2,2,-2,6,37,8,6,6,8,6,6,8,6,6,8,6,6,8,6,6,8,6,6,8,6,6,8,6,6,8,6,6,
+          8,6,6,8,6,6,8,6,6,8,-4,6,-2,2,-43,6,-2,2,-43,6,-2,2,-43,6,1,2,-19,4,1,5,-5,6,1,3,-18,4,-21,2,-5,6,-21,
+          2,-43,6,-2,2,-43,6,-2,2,-43,6,-2,2,-43,6,-2,2,-43,6,1,2,-3,6,37,8,6,6,8,6,6,8,6,6,8,6,6,8,6,6,8,6,6,
+          8,6,6,8,6,6,8,6,6,8,6,6,8,6,6,8,6,6,8,-4,6,1,2,-44,6,1,2,-44,6,1,2,-21,4,-3,2,-20,4,-271,2,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_courtyard","path":"tilesets/ts_courtyard/ts_courtyard.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
   ],
   "name":"rm_puzzle_room_1",

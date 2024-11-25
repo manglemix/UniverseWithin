@@ -33,6 +33,7 @@
     {"$GMObjectProperty":"v1","%Name":"fade_in","filters":[],"listItems":[],"multiselect":false,"name":"fade_in","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"next_room_index","filters":[],"listItems":[],"multiselect":false,"name":"next_room_index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"weight","filters":[],"listItems":[],"multiselect":false,"name":"weight","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"150","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"fade_in_delay","filters":[],"listItems":[],"multiselect":false,"name":"fade_in_delay","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

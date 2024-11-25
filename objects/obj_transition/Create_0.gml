@@ -3,7 +3,7 @@
 if fade_in {
 	alpha = 1;
 	fading = false;
-	alarm[0] = 10;
+	alarm[0] = fade_in_delay;
 } else {
 	alpha = 0;
 	fading = true;

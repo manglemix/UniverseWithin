@@ -1,7 +1,7 @@
 if dialogue_box.selected_choice == "Yes" {
-	dialogue = "I'm glad!";
+	dialogue = "Awesome!";
 } else {
-	dialogue = "That's a shame...";
+	dialogue = "Ah well, the feeling is not for everybody.";
 }
 scr_create_dialogue_box();
 interactable = false;

@@ -1,5 +1,5 @@
 if global.puzzle3_completed {
-	dialogue = "Did you enjoy the ritual?";
+	dialogue = "How was the feeling of gravity? Was it exhilarating?";
 	choices = ["Yes", "No"];
 }
 else if spoken_to {
