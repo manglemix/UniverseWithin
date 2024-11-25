@@ -1,6 +1,6 @@
 delta_sum += delta_time
 
-if instance_exists(obj_dialogue_box) or instance_exists(obj_transition) or paused or disable_step {
+if instance_exists(obj_courtyard_title) or instance_exists(obj_dialogue_box) or instance_exists(obj_transition) or paused or disable_step {
 	x_strength = scr_lerp(x_strength, 0, 250);
 	y_strength = scr_lerp(y_strength, 0, 250);
 	return;

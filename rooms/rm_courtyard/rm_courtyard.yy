@@ -94,10 +94,12 @@
     {"name":"inst_6F0923B4","path":"rooms/rm_courtyard/rm_courtyard.yy",},
     {"name":"inst_704D36F2","path":"rooms/rm_courtyard/rm_courtyard.yy",},
     {"name":"inst_88264C","path":"rooms/rm_courtyard/rm_courtyard.yy",},
+    {"name":"inst_1CBAEDBC","path":"rooms/rm_courtyard/rm_courtyard.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Dialogue","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v1","%Name":"inst_1CBAEDBC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1CBAEDBC","objectId":{"name":"obj_courtyard_title","path":"objects/obj_courtyard_title/obj_courtyard_title.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":399.0,"y":287.0,},
         {"$GMRInstance":"v1","%Name":"inst_4CB41CA6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4CB41CA6","objectId":{"name":"obj_dialogue_box","path":"objects/obj_dialogue_box/obj_dialogue_box.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_dialogue_box","path":"objects/obj_dialogue_box/obj_dialogue_box.yy",},"propertyId":{"name":"dialogue","path":"objects/obj_dialogue_box/obj_dialogue_box.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"I only have one piece of the gate. I need to talk to the poeple in this town to get the rest.",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_dialogue_box","path":"objects/obj_dialogue_box/obj_dialogue_box.yy",},"propertyId":{"name":"speaker_name","path":"objects/obj_dialogue_box/obj_dialogue_box.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"You",},
