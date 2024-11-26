@@ -3,6 +3,7 @@ delta_sum += delta_time
 if instance_exists(obj_courtyard_title) or instance_exists(obj_dialogue_box) or instance_exists(obj_transition) or paused or disable_step {
 	x_strength = scr_lerp(x_strength, 0, 250);
 	y_strength = scr_lerp(y_strength, 0, 250);
+	sprite_index = spr_player_idle;
 	return;
 }
 
@@ -21,11 +22,24 @@ if disable_y {
 }
 
 if _x_strength == 0 {
-	// do nothing
+	if _y_strength == 0 {
+		if sprite_index == spr_player_left {
+			image_xscale = 1;
+		} else if sprite_index == spr_player_right {
+			image_xscale = -1;
+		}
+		sprite_index = spr_player_idle;
+	} else if _y_strength > 0 {
+		sprite_index = spr_player_down;
+	} else {
+		sprite_index = spr_player_up;
+	}
 } else if _x_strength < 0 {
 	image_xscale = 1;
+	sprite_index = spr_player_left;
 } else {
-	image_xscale = -1;
+	image_xscale = 1;
+	sprite_index = spr_player_right;
 }
 
 var _collide_with = [obj_wall, obj_entrance, obj_gate];
