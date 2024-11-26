@@ -11,4 +11,6 @@ if interact_on_create {
 if idle_talking {
 	image_speed = 0;
 }
+
 alarm[0] = round(random_range(100, 600));
+original_xscale = image_xscale;
